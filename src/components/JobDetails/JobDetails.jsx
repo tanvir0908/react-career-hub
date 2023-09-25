@@ -12,6 +12,7 @@ export default function JobDetails() {
       <div>
         <h2>Job Title: {job.job_title}</h2>
       </div>
+      <button className="btn btn-primary">Apply Now</button>
     </div>
   );
 }
